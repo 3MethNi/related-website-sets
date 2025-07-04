@@ -253,3 +253,13 @@ yt
 za
 zm
 zw
+
+// ... (โค้ดเดิมทั้งหมด)
+
+app.delete('/api/audit-log', (req, res) => {
+  auditLogs = [];
+  res.json({ status: "cleared" });
+});
+
+// ... (โค้ดเดิมทั้งหมด)
+DELETE /api/audit-log
